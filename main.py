@@ -1,10 +1,12 @@
 import telebot
 from telebot import types
 import sqlite3
-
+import dotenv
+import os
+dotenv.load_dotenv()
 # =================== КОНСТАНТИ ===================
 
-TOKEN = '8768172483:AAHzdzHHVOEvhf47g21LoWGt-xw5Yt-kZVs'
+TOKEN = os.getenv("token")
 ADMIN_ID = 8720546531
 
 WITHDRAW_AMOUNTS = [15, 25, 50, 100]  # Доступні суми для виводу
