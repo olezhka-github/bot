@@ -4,7 +4,7 @@ import sqlite3
 
 # =================== КОНСТАНТИ ===================
 
-TOKEN = 'ТВІЙ_ТОКЕН_ТУТ'
+TOKEN = '8753275176:AAHRra7xuZKbUKC90pxQyZYY6T0L-MHU-y8'
 ADMIN_ID = 8720546531
 
 WITHDRAW_AMOUNTS = [15, 25, 50, 100]  # Доступні суми для виводу
